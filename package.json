@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "start": "tailwindcss -i ./index.css -o ./output.css --watch"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.13",
+        "postcss": "^8.4.21",
+        "tailwindcss": "^3.2.4",
+        "vite": "^4.1.1"
+    },
+    "dependencies": {
+        "@amcharts/amcharts5": "^5.3.6",
+        "@amcharts/amcharts5-fonts": "^5.0.1",
+        "@amcharts/amcharts5-geodata": "^5.1.0"
+    }
+}
