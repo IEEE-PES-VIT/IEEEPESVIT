@@ -2,8 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0 20px;
     font-size: 10px;
     font-family: "Poppins";
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+}
+
+.textbox {
+    width: 55%;
+}
+
+.slogbox {
+    margin-left: 2rem;
+    max-width: 40%;
 }
