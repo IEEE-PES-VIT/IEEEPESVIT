@@ -525,14 +525,34 @@ video {
   position: relative;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .my-2 {
@@ -554,8 +574,16 @@ video {
   margin-left: 0.25rem;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .mt-10 {
@@ -568,6 +596,10 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mt-3 {
@@ -897,6 +929,14 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .pl-6 {
   padding-left: 1.5rem;
 }
@@ -907,6 +947,21 @@ video {
 
 .pr-1\.5 {
   padding-right: 0.375rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-7xl {
@@ -945,6 +1000,18 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-extralight {
+  font-weight: 200;
 }
 
 .italic {
@@ -1000,12 +1067,14 @@ video {
        user-select: none;
   /* Standard syntax */
   scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   padding: 0 20px;
   font-size: 10px;
-  font-family: "Poppins";
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: 'Poppins', sans-serif;
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
