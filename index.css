@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 * {
     -webkit-user-select: none;
@@ -13,7 +14,11 @@
 
 
     font-family: 'Poppins', sans-serif;
-}
+
+-ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */}
 
 body {
     padding: 0 20px;
@@ -33,3 +38,13 @@ font-family: 'Poppins', sans-serif;
     margin-left: 2rem;
     max-width: 40%;
 }
+
+.text{
+    background: rgba(132, 177, 147, 0.395);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(6.5px);
+        -webkit-backdrop-filter: blur(6.5px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
