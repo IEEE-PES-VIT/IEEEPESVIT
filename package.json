@@ -1,6 +1,7 @@
 {
     "scripts": {
-        "start": "tailwindcss -i ./index.css -o ./output.css --watch"
+        "start": "tailwindcss -i ./index.css -o ./output.css --watch",
+        "dev":"live-server"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.13",
